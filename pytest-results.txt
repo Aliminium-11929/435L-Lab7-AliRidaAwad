@@ -1,0 +1,25 @@
+Lab7-AliRida-Awad | python -m pytest -v
+
+============================= test session starts ==============================
+platform linux -- Python 3.14.7, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python
+cachedir: .pytest_cache
+rootdir: /home/cain/Lab7-AliRida-Awad
+configfile: pytest.ini
+testpaths: .
+collecting ... collected 13 items
+
+test_user_AliRida_Awad.py::test_database_created_with_initial_users_on_first_run PASSED [  7%]
+test_user_AliRida_Awad.py::test_second_start_preserves_users_without_duplicates PASSED [ 15%]
+test_user_AliRida_Awad.py::test_insert_user PASSED                       [ 23%]
+test_user_AliRida_Awad.py::test_get_users PASSED                         [ 30%]
+test_user_AliRida_Awad.py::test_get_user_by_id PASSED                    [ 38%]
+test_user_AliRida_Awad.py::test_get_user_by_id_missing PASSED            [ 46%]
+test_user_AliRida_Awad.py::test_update_user PASSED                       [ 53%]
+test_user_AliRida_Awad.py::test_delete_user PASSED                       [ 61%]
+test_user_AliRida_Awad.py::test_api_get_users PASSED                     [ 69%]
+test_user_AliRida_Awad.py::test_api_get_user PASSED                      [ 76%]
+test_user_AliRida_Awad.py::test_api_add_user PASSED                      [ 84%]
+test_user_AliRida_Awad.py::test_api_update_user PASSED                   [ 92%]
+test_user_AliRida_Awad.py::test_api_delete_user PASSED                   [100%]
+
+============================== 13 passed in 0.10s ==============================
